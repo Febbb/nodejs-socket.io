@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>chat-live</title>
+	<link rel="shortcut icon" href="/assets/img/profil.png">
+
+	<link rel="stylesheet" href="/bootstrap/css/bootstrap.css"  >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="/js/jquery-3.6.0.js"  ></script>
+	<script type="text/javascript" src="/socket.io/socket.io.js "></script>
+ 	<script src="/js/chat.js"  ></script>
+ 
+ 
+
+
+   
+	
+</head>
+<body>
+<div class="container-fluid">
+	<div class="row justify-content-center">
+		<div class="col-lg-5 mt-4">
+			<div class="jumbotron">
+				<h1>Live-Chat </h1>
+
+				<div id="messege-list">
+					
+
+				</div>
+
+				<hr>
+					<div class="input-group mb-3">
+					  <div class="input-group-prepend">
+					    <span class="input-group-text" id="basic-addon1">@</span>
+					  </div>
+					  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" id="username">
+					</div>
+
+					<div class="input-group mb-3">
+					  <div class="input-group-prepend">
+					    <span class="input-group-text" id="basic-addon1"><img style="width: 15px;height: 15px;" src="/assets/img/mail.png"></span>
+					  </div>
+					  <input type="text" class="form-control" placeholder="Messege" aria-label="messege" aria-describedby="basic-addon1" id="messege">
+					</div>
+					 
+					<button type="submit" id="sendMessege" class="btn btn-info"> send </button>
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<script src="/js/jquery-3.6.0.js"  ></script>
+<script src="/js/popper.js"  ></script>
+<script src="/bootstrap/js/bootstrap.js" ></script>	
+<script src="/bootstrap/js/bootstrap.bundle.min.js"  ></script>	
+</body>
+</html>

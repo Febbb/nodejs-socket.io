@@ -1,0 +1,50 @@
+body{
+	background-image: url('/assets/img/x.jpg');
+	/*background-repeat: repeat-y;*/
+	background-size: cover;
+	color: white;
+
+
+}
+
+#contentDark{
+	background: rgba(0, 0, 0, 0.6);
+}
+#modal-body{
+	background-image: url('/assets/img/x.jpg');
+	width: 100%;
+	height: 100%;
+}
+#email{
+	width:50%;
+	height: 50%; 
+}
+
+#profile{
+	width:50%;
+	height: 50%; 
+}
+
+#skills{
+	width:50%;
+	height: 50%; 
+}
+
+
+ #navigasi{
+ 	width: 100%;
+ 	height: 100%;
+ 	background: rgba(0, 0, 0, 0.6);
+ 		padding:0;
+ 		margin:0;
+ }
+ 
+ #banner{
+ 	margin-top: 18%;
+ 	width: 100%;
+ 	height: 100%;
+ 	background: rgba(0, 0, 0, 0.6);
+ 	padding:0;
+ 	margin-right:0;
+ 	margin-left:0;
+ }

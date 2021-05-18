@@ -1,0 +1,7 @@
+{
+	"restareble":"rs",
+	"watch":["views","controller","model","index.js","routes"],
+	"verbose":true,
+	"ext":"js ejs"
+
+	}
